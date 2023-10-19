@@ -344,6 +344,27 @@ main {
 	-webkit-line-clamp: 2;
 	overflow: hidden;
 }
+.last {
+	margin-bottom: 60px;
+}
+.leaderboard {
+	filter: brightness(60%);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.leaderboard:hover {
+	filter: brightness(100%);
+	z-index: 3;
+}
+.number-img {
+	position: absolute;
+	font-size: 48px;
+	font-weight: 500;
+	color: #fff;
+	z-index: 2;
+}
 
 /* ------------------------------------------------------- */
 
