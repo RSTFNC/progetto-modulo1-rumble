@@ -349,6 +349,33 @@ main {
 
 /* FOOTER */
 footer {
+	display: flex;
+	margin: 0 30px 0 245px;
+	height: 80px;
+	justify-content: space-between;
+	align-items: center;
+}
+#logo-footer {
+	display: none;
+}
+footer > section > a {
+	text-decoration: none;
+	font-size: 14px;
+	margin: 0 5px;
+	color: #000;
+}
+footer > section > a:hover {
+	text-decoration: underline;
+}
+#privacy > a {
+	font-size: 12px;
+	font-weight: 200;
+	color: #000;
+}
+footer > section > p {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 100;
 }
 /* ------------------------------------------------------- */
 
@@ -404,6 +431,14 @@ footer {
 		display: grid;
 		gap: 24px;
 		grid-template-columns: repeat(3, minmax(200px, 1fr));
+	}
+
+	/* FOOTER */
+	footer {
+		margin: 0 30px;
+	}
+	#logo-footer {
+		display: block;
 	}
 }
 
